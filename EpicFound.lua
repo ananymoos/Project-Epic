@@ -40,3 +40,13 @@ statuslabel.Text = "project epic trolled this game   status: injected"
 statuslabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 statuslabel.TextSize = 14.000
 statuslabel.TextWrapped = true
+
+-- Scripts:
+
+local function WFRBY_fake_script() -- EpicFound.LocalScript 
+	local script = Instance.new('LocalScript', EpicFound)
+
+	wait(45)
+	script.Parent.Parent:Destroy()
+end
+coroutine.wrap(WFRBY_fake_script)()
