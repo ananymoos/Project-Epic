@@ -27,6 +27,7 @@ local function notify(text)
 		{
 			Title = "Project Epic",
 			Duration = 3,
+			Icon = "rbxassetid://518532451";
 			Text = text
 		}
 	)
